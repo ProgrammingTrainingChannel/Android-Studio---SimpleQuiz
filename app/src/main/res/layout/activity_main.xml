@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nebiyou.simplequiz.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40"
+        android:text="Welcome To Simpel Quiz"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/BtnQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:onClick="BtnQuestions"
+        android:text="Questions" />
+
+    <Button
+        android:id="@+id/BtnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:onClick="BtnResult"
+        android:text="Result" />
+
+    <Button
+        android:id="@+id/btnhelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnhelp"
+        android:text="Help" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nebiyou.simplequiz.NumberOfQuestionActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:text="How Many Questions Do You Need"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/txtNumberOfQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:ems="10"
+        android:hint=" __ / Out Of 8 Questions"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:elevation="1dp"
+        android:onClick="BtnNext"
+        android:text="Next" />
+
+</LinearLayout>
